@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "composite": true, // Required for referenced projects
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true, // Generate .d.ts files
+    "emitDeclarationOnly": true, // Only emit .d.ts files, not .js
+    "outDir": "./.cache/tsc-types" // Output directory for .d.ts files
+  },
+  "include": ["vite.config.ts"] // Specify Node.js context files
+}

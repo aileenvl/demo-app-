@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "tsc -b && vite build",
     "clean": "rm -rf node_modules .turbo dist",
     "dev": "vite",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@orama/core": "^0.1.8",
-    "@orama/react-components": "file:./orama-react-components-0.7.0.tgz",
+    "@orama/react-components": "^0.7.0",
     "@oramacloud/client": "^2.1.4",
     "react": "^19",
     "react-dom": "^19",

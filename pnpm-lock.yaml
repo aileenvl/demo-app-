@@ -12,8 +12,8 @@ importers:
         specifier: ^0.1.8
         version: 0.1.8
       '@orama/react-components':
-        specifier: file:./orama-react-components-0.7.0.tgz
-        version: file:orama-react-components-0.7.0.tgz(@stencil/core@4.27.0)(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: ^0.7.0
+        version: 0.7.0(@stencil/core@4.27.0)(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@oramacloud/client':
         specifier: ^2.1.4
         version: 2.1.4
@@ -401,9 +401,8 @@ packages:
     resolution: {integrity: sha512-qtSrqCqRU93SjEBedz987tvWao1YQSELjBhGkHYGVP7Dg0lBWP6d+uZEIt5gxTAYio/YWWlhivmRABvRfPLmnQ==}
     engines: {node: '>= 16.0.0'}
 
-  '@orama/react-components@file:orama-react-components-0.7.0.tgz':
-    resolution: {integrity: sha512-boRIcYp2m1tgQz4g5GFEMwQ4k/bOO/fYn+4SfG1gkBLEluQMG+lnrtGpClCO9gqUEkZyArftd2gX26VNBNuYsQ==, tarball: file:orama-react-components-0.7.0.tgz}
-    version: 0.7.0
+  '@orama/react-components@0.7.0':
+    resolution: {integrity: sha512-YAUkFwqKqYdL2Lh0VhQM+bQOx3vfZwxUurOX9+fS85/k+KIGPG18l5iDjWMAsA4WC96SEvV1xfSA67XMXEgwrA==}
     peerDependencies:
       react: '>=17.0.0 <20.0.0'
       react-dom: '>=17.0.0 <20.0.0'
@@ -2027,7 +2026,7 @@ snapshots:
 
   '@orama/orama@3.1.6': {}
 
-  '@orama/react-components@file:orama-react-components-0.7.0.tgz(@stencil/core@4.27.0)(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@orama/react-components@0.7.0(@stencil/core@4.27.0)(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@orama/wc-components': 0.7.0
       '@stencil/react-output-target': 0.8.2(@stencil/core@4.27.0)(@types/react@19.1.4)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
