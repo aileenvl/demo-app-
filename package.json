@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "demo-react",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "clean": "rm -rf node_modules .turbo dist",
+    "dev": "vite",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@orama/core": "^0.1.8",
+    "@orama/react-components": "file:./orama-react-components-0.7.0.tgz",
+    "@oramacloud/client": "^2.1.4",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "0.4.7",
+    "typescript": "^5",
+    "vite": "^5.3.1"
+  }
+}
